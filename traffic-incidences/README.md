@@ -21,4 +21,4 @@
 
   Disclaimer: Data content has not been normalized (TODO)
 
-  Usage: traffic-incidences.py <XML input file>
+  Usage: traffic-incidences.py XML_Input_File 
