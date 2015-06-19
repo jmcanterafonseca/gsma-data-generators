@@ -1,0 +1,3000 @@
+[
+  {
+    "category": "Accidente",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T12:22:28+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 10.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.30019,-2.95853"
+    },
+    "roadId": "BI-735",
+    "travelDirection": "ASUA",
+    "cause": "Alcance",
+    "id": "7683cfd9-166f-11e5-9a64-109add700a2c",
+    "initialKilometer": 10.0
+  },
+  {
+    "category": "Accidente",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T12:09:50+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 14.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27376,-2.132849"
+    },
+    "roadId": "N-634",
+    "travelDirection": "DONOSTIA/SAN SEBASTI\u00c1N",
+    "cause": "Alcance",
+    "id": "7692d028-166f-11e5-b558-109add700a2c",
+    "initialKilometer": 14.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T11:55:55+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 25.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.04798,-2.924176"
+    },
+    "roadId": "AP-68",
+    "travelDirection": "ZARAGOZA",
+    "cause": "Obras",
+    "id": "7692dadc-166f-11e5-a392-109add700a2c",
+    "initialKilometer": 25.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T11:45:22+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 25.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.23709,-2.7242"
+    },
+    "roadId": "BI-635",
+    "travelDirection": "GERNIKA",
+    "cause": "Obras",
+    "id": "7692e5a3-166f-11e5-8505-109add700a2c",
+    "initialKilometer": 25.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T11:37:19+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 138.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.34282,-3.13918"
+    },
+    "roadId": "A-8",
+    "travelDirection": "CANTABRIA",
+    "cause": "Obras",
+    "id": "7692efd7-166f-11e5-8f0f-109add700a2c",
+    "initialKilometer": 138.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T11:29:07+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 18.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.36999,-3.00088"
+    },
+    "roadId": "BI-637",
+    "travelDirection": "KUKULARRA",
+    "cause": "Obras",
+    "id": "7692fa11-166f-11e5-add3-109add700a2c",
+    "initialKilometer": 18.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T08:04:07+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 15.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.34514,-2.99255"
+    },
+    "roadId": "BI-637",
+    "travelDirection": "KURTXES(BERANGO)",
+    "cause": "Obras",
+    "id": "76930461-166f-11e5-82ce-109add700a2c",
+    "initialKilometer": 15.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T07:44:54+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 118.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.99635,-2.575145"
+    },
+    "roadId": "AP-1",
+    "travelDirection": "Eibar",
+    "cause": "Obras",
+    "id": "76930e4c-166f-11e5-8777-109add700a2c",
+    "initialKilometer": 117.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T07:20:06+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 5.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.28769,-2.96002"
+    },
+    "roadId": "BI-604",
+    "travelDirection": "BILBAO",
+    "cause": "Obras",
+    "id": "76931880-166f-11e5-9412-109add700a2c",
+    "initialKilometer": 5.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:32:06+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 409.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.95595,-2.23403"
+    },
+    "roadId": "N-1",
+    "travelDirection": "IR\u00daN",
+    "cause": "Obras",
+    "id": "76932261-166f-11e5-994e-109add700a2c",
+    "initialKilometer": 407.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:31:15+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 35.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.96855,-2.876096"
+    },
+    "roadId": "AP-68",
+    "travelDirection": "BILBAO",
+    "cause": "Obras",
+    "id": "76932c94-166f-11e5-ab12-109add700a2c",
+    "initialKilometer": 36.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:30:39+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 69.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.18468,-2.52203"
+    },
+    "roadId": "N-634",
+    "travelDirection": "DONOSTIA/SAN SEBASTI\u00c1N",
+    "cause": "Obras",
+    "id": "76933694-166f-11e5-9c01-109add700a2c",
+    "initialKilometer": 69.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:30:13+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 52.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.28202,-2.49587"
+    },
+    "roadId": "BI-633",
+    "travelDirection": "ONDARROA (POR TRABAKUA)",
+    "cause": "Obras",
+    "id": "76934080-166f-11e5-aad7-109add700a2c",
+    "initialKilometer": 50.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:30:01+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 29.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.16703,-2.64331"
+    },
+    "roadId": "BI-623",
+    "travelDirection": "DURANGO",
+    "cause": "Obras",
+    "id": "76934a9e-166f-11e5-b82f-109add700a2c",
+    "initialKilometer": 29.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:28:55+02:00"
+    },
+    "severity": "Blanco",
+    "type": "TrafficIncidence",
+    "endKilometer": 412.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.99363,-2.233545"
+    },
+    "roadId": "N-1",
+    "travelDirection": "IR\u00daN",
+    "cause": "Obras",
+    "id": "76935480-166f-11e5-b5af-109add700a2c",
+    "initialKilometer": 412.0
+  },
+  {
+    "category": "Seguridad vial",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:28:40+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 119.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.01685,-2.541243"
+    },
+    "roadId": "AP-1",
+    "travelDirection": "Madrid",
+    "cause": "Desprendimiento",
+    "id": "76935e91-166f-11e5-a5b2-109add700a2c",
+    "initialKilometer": 121.0
+  },
+  {
+    "category": "Seguridad vial",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:28:24+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 121.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.00816,-2.560934"
+    },
+    "roadId": "AP-1",
+    "travelDirection": "Eibar",
+    "cause": "Desprendimiento",
+    "id": "76936875-166f-11e5-bed1-109add700a2c",
+    "initialKilometer": 119.0
+  },
+  {
+    "category": "Seguridad vial",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:27:29+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 6.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.2737,-2.067562"
+    },
+    "roadId": "N-634",
+    "travelDirection": "DONOSTIA/SAN SEBASTI\u00c1N",
+    "cause": "Desprendimiento",
+    "id": "7693728a-166f-11e5-a7a3-109add700a2c",
+    "initialKilometer": 6.0
+  },
+  {
+    "category": "Seguridad vial",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:25:20+02:00"
+    },
+    "severity": "Negro",
+    "type": "TrafficIncidence",
+    "endKilometer": 30.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.75518,-2.44048"
+    },
+    "roadId": "A-4144",
+    "travelDirection": "MUSITU",
+    "cause": "Desprendimiento",
+    "id": "76937ca8-166f-11e5-8ff3-109add700a2c",
+    "initialKilometer": 28.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-18T06:24:42+02:00"
+    },
+    "severity": "Amarillo",
+    "type": "TrafficIncidence",
+    "endKilometer": 385.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.21714,-2.88029"
+    },
+    "roadId": "BI-625",
+    "travelDirection": "BILBAO",
+    "cause": "Obras",
+    "id": "769386ee-166f-11e5-8f4b-109add700a2c",
+    "initialKilometer": 385.0
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 10.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.26947,-2.90585"
+    },
+    "roadId": "BI-631",
+    "travelDirection": "GALDAKAO",
+    "cause": "Desconocida",
+    "id": "76939140-166f-11e5-8d03-109add700a2c",
+    "initialKilometer": 8.1,
+    "description": "AGIRLETA/SANTO DOMINGO"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 16.6,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.94734,-2.78823"
+    },
+    "roadId": "A-3600",
+    "travelDirection": "ALTUBE",
+    "cause": "Desconocida",
+    "id": "76939aee-166f-11e5-8d98-109add700a2c",
+    "initialKilometer": 16.6,
+    "description": "AIURDIN"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 26.3,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.97685,-2.87056"
+    },
+    "roadId": "A-624",
+    "travelDirection": "BALMASEDA",
+    "cause": "Desconocida",
+    "id": "7693a4d9-166f-11e5-a45c-109add700a2c",
+    "initialKilometer": 24.3,
+    "description": "ALTUBE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 35.8,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.95619,-2.87355"
+    },
+    "roadId": "AP-68",
+    "travelDirection": "BILBAO",
+    "cause": "Desconocida",
+    "id": "7693ae80-166f-11e5-b80e-109add700a2c",
+    "initialKilometer": 35.8,
+    "description": "ALTUBE AP-68 (BILBAO)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 35.8,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.95671,-2.87328"
+    },
+    "roadId": "AP-68",
+    "travelDirection": "ZARAGOZA",
+    "cause": "Desconocida",
+    "id": "7693b838-166f-11e5-a177-109add700a2c",
+    "initialKilometer": 35.8,
+    "description": "ALTUBE AP-68 (ZARAGOZA)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.20257,-2.13434"
+    },
+    "roadId": "GI-2631",
+    "travelDirection": "ORIO",
+    "cause": "Desconocida",
+    "id": "7693c226-166f-11e5-b7a4-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ANDATZARRATE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 21.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.397929999999995,-2.90827"
+    },
+    "roadId": "BI-2120",
+    "travelDirection": "PLENTZIA",
+    "cause": "Desconocida",
+    "id": "7693cbf5-166f-11e5-aa7a-109add700a2c",
+    "initialKilometer": 20.0,
+    "description": "ANDRAKA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.97943,-2.4010499999999997"
+    },
+    "roadId": "GI-3591",
+    "travelDirection": "O\u00d1ATI",
+    "cause": "Desconocida",
+    "id": "7693d61c-166f-11e5-8cc9-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ARANTZAZU"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 70.1,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.182449,-2.53198"
+    },
+    "roadId": "N-634",
+    "travelDirection": "SANTANDER",
+    "cause": "Desconocida",
+    "id": "7693dfca-166f-11e5-a598-109add700a2c",
+    "initialKilometer": 70.1,
+    "description": "AREITIO"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27287,-1.79623"
+    },
+    "roadId": "GI-3420",
+    "travelDirection": "LESAKA",
+    "cause": "Desconocida",
+    "id": "7693e98f-166f-11e5-9774-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ARITXULEGI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 20.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.97571,-2.57162"
+    },
+    "roadId": "GI-627",
+    "travelDirection": "EIBAR",
+    "cause": "Desconocida",
+    "id": "7693f280-166f-11e5-9061-109add700a2c",
+    "initialKilometer": 18.0,
+    "description": "ARLABAN"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 42.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.200579999999995,-2.55292"
+    },
+    "roadId": "BI-633",
+    "travelDirection": "ONDARROA",
+    "cause": "Desconocida",
+    "id": "7693fb23-166f-11e5-8439-109add700a2c",
+    "initialKilometer": 39.3,
+    "description": "ARRANGIZGANA (TRABAKUA)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.20534,-2.44673"
+    },
+    "roadId": "GI-3301",
+    "travelDirection": "EIBAR",
+    "cause": "Desconocida",
+    "id": "769402e8-166f-11e5-a410-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ARRATE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 10.4,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.32093,-2.87457"
+    },
+    "roadId": "BI-631",
+    "travelDirection": "BERMEO",
+    "cause": "Desconocida",
+    "id": "76940c2b-166f-11e5-8495-109add700a2c",
+    "initialKilometer": 8.6,
+    "description": "ARTEBAKARRA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 13.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.24702,-1.81529"
+    },
+    "roadId": "GI-3631",
+    "travelDirection": "OIARTZUN",
+    "cause": "Desconocida",
+    "id": "769412e3-166f-11e5-84a4-109add700a2c",
+    "initialKilometer": 9.0,
+    "description": "ARTIKUTZA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.272737,-2.915615"
+    },
+    "roadId": "BI-3741",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76941d0c-166f-11e5-94a7-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ARTXANDA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27245,-2.60715"
+    },
+    "roadId": "BI-2224",
+    "travelDirection": "MARKINA-XEMEIN",
+    "cause": "Desconocida",
+    "id": "769423e1-166f-11e5-bfbb-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ASTORKIGANA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: null C: null A: null",
+    "type": "TrafficIncidence",
+    "endKilometer": 26.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.24371,-2.71834"
+    },
+    "roadId": "BI-635",
+    "travelDirection": "GERNIKA-LUMO",
+    "cause": "Obras",
+    "id": "76942d91-166f-11e5-8c42-109add700a2c",
+    "initialKilometer": 26.0,
+    "description": "AUTZAGANA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.22867,-3.160829"
+    },
+    "roadId": "BI-2701",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76943561-166f-11e5-876c-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "AVELLANEDA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 17.7,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.789609999999996,-2.50994"
+    },
+    "roadId": "A-132  ",
+    "travelDirection": "LUMBIER",
+    "cause": "Desconocida",
+    "id": "76943bde-166f-11e5-bfc5-109add700a2c",
+    "initialKilometer": 17.6,
+    "description": "AZAZETA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 34.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.20256,-2.35859"
+    },
+    "roadId": "GI-2634",
+    "travelDirection": "ELGOIBAR",
+    "cause": "Desconocida",
+    "id": "7694426e-166f-11e5-941d-109add700a2c",
+    "initialKilometer": 32.0,
+    "description": "AZKARATE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.203109999999995,-2.3620799999999997"
+    },
+    "roadId": "GI-3210",
+    "travelDirection": "AZKARATE",
+    "cause": "Desconocida",
+    "id": "769447a1-166f-11e5-985e-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "AZURKI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 38.5,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.0657,-2.71158"
+    },
+    "roadId": "N-240  ",
+    "travelDirection": "BILBAO",
+    "cause": "Desconocida",
+    "id": "76944cdc-166f-11e5-a9ad-109add700a2c",
+    "initialKilometer": 38.5,
+    "description": "BARAZAR"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.4045,-2.76024"
+    },
+    "roadId": "BI-631",
+    "travelDirection": "BERMEO",
+    "cause": "Desconocida",
+    "id": "76945235-166f-11e5-be7e-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "BAREZI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 33.9,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.98948,-2.95541"
+    },
+    "roadId": "A-2521",
+    "travelDirection": "URDU\u00d1A-ORDU\u00d1A",
+    "cause": "Desconocida",
+    "id": "76945735-166f-11e5-b674-109add700a2c",
+    "initialKilometer": 32.5,
+    "description": "BARRERILLA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.187789,-3.09278"
+    },
+    "roadId": "BI-3621",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76945c35-166f-11e5-af1d-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "BERBIKIZ (SAN COSME)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.59693,-2.47761"
+    },
+    "roadId": "A-2126",
+    "travelDirection": "BERNEDO",
+    "cause": "Desconocida",
+    "id": "7694615e-166f-11e5-86bf-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "BERNEDOKO MENDATEA/PUERTO DE BERNEDO"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 7.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.15233,-2.16201"
+    },
+    "roadId": "GI-2634",
+    "travelDirection": "ELGOIBAR",
+    "cause": "Desconocida",
+    "id": "76946673-166f-11e5-ad5b-109add700a2c",
+    "initialKilometer": 5.0,
+    "description": "BIDANIA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 39.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.11052,-2.82888"
+    },
+    "roadId": "BI-3513",
+    "travelDirection": "OROZKO",
+    "cause": "Desconocida",
+    "id": "76946bae-166f-11e5-bf1c-109add700a2c",
+    "initialKilometer": 39.0,
+    "description": "BIKOSGANA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.250517,-2.625003"
+    },
+    "roadId": "BI-3231",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "769470ae-166f-11e5-9f7c-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "BIZKAIKO BEHATOKIA/BALC\u00d3N DE BIZKAIA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 16.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.08818,-2.3501399999999997"
+    },
+    "roadId": "GI-632",
+    "travelDirection": "DURANGO",
+    "cause": "Desconocida",
+    "id": "769475ae-166f-11e5-bd59-109add700a2c",
+    "initialKilometer": 14.0,
+    "description": "DESKARGA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 35.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.07546,-2.68445"
+    },
+    "roadId": "BI-623",
+    "travelDirection": "VITORIA-GASTEIZ",
+    "cause": "Desconocida",
+    "id": "76947aeb-166f-11e5-b263-109add700a2c",
+    "initialKilometer": 30.0,
+    "description": "DIMA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 12.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.05027,-2.261692"
+    },
+    "roadId": "GI-2632",
+    "travelDirection": "DURANGO",
+    "cause": "Desconocida",
+    "id": "76947ff3-166f-11e5-9493-109add700a2c",
+    "initialKilometer": 11.0,
+    "description": "EITZAGA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.12795,-2.37735"
+    },
+    "roadId": "GI-3750",
+    "travelDirection": "BERGARA",
+    "cause": "Desconocida",
+    "id": "76948526-166f-11e5-8542-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ELOSUA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 100.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.292138,-2.959528"
+    },
+    "roadId": "BI-604",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76948a1c-166f-11e5-b9fd-109add700a2c",
+    "initialKilometer": 92.0,
+    "description": "ENEKURI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 23.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.305225,-1.756611"
+    },
+    "roadId": "GI-3454 ",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "769490ca-166f-11e5-970b-109add700a2c",
+    "initialKilometer": 18.0,
+    "description": "ERLAITZ"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 49.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.2372,-3.29316"
+    },
+    "roadId": "BI-630",
+    "travelDirection": "KARRANTZA HARANA/VALLE DE CARRANZA",
+    "cause": "Desconocida",
+    "id": "769496e1-166f-11e5-a5e1-109add700a2c",
+    "initialKilometer": 42.6,
+    "description": "ESCRITA/LA ESCRITA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 412.6,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.946,-2.22672"
+    },
+    "roadId": "N-1",
+    "travelDirection": "IRUN",
+    "cause": "Desconocida",
+    "id": "76949d7d-166f-11e5-9c8c-109add700a2c",
+    "initialKilometer": 405.5,
+    "description": "ETZEGARATE (IRUN)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 412.6,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.946,-2.22672"
+    },
+    "roadId": "N-1",
+    "travelDirection": "MADRID",
+    "cause": "Desconocida",
+    "id": "7694a697-166f-11e5-b215-109add700a2c",
+    "initialKilometer": 405.5,
+    "description": "ETZEGARATE (MADRID)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 473.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.32983,-1.84956"
+    },
+    "roadId": "N-1",
+    "travelDirection": "IRUN",
+    "cause": "Desconocida",
+    "id": "7694af38-166f-11e5-985f-109add700a2c",
+    "initialKilometer": 471.7,
+    "description": "GAINTXURIZKETA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27361,-2.920473"
+    },
+    "roadId": "BI-3732",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7694b6cc-166f-11e5-83cd-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "GANGUREN (EL VIVERO)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.16468,-2.99024"
+    },
+    "roadId": "A-3632",
+    "travelDirection": "OKONDO",
+    "cause": "Desconocida",
+    "id": "7694c02b-166f-11e5-847c-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "GARATE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 8.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.779939999999996,-2.68026"
+    },
+    "roadId": "A-2124",
+    "travelDirection": "VITORIA-GASTEIZ",
+    "cause": "Desconocida",
+    "id": "7694c728-166f-11e5-861c-109add700a2c",
+    "initialKilometer": 4.1,
+    "description": "GASTEIZKO MENDATEA/PUERTO DE VITORIA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 6.8,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.97721,-2.5718199999999998"
+    },
+    "roadId": "GI-3310",
+    "travelDirection": "ESKORIATZA",
+    "cause": "Desconocida",
+    "id": "7694cc51-166f-11e5-beeb-109add700a2c",
+    "initialKilometer": 5.0,
+    "description": "GATZAGA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.79394,-2.957076"
+    },
+    "roadId": "A-2622",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7694d147-166f-11e5-a919-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "GATZAGAKO MENDATEA (PUERTO DE SALINAS)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.25226,-2.57207"
+    },
+    "roadId": "BI-2224",
+    "travelDirection": "MARKINA-XEMEIN",
+    "cause": "Desconocida",
+    "id": "7694d678-166f-11e5-bc76-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "GORONTZUGARAI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 19.4,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.20313,-3.17326"
+    },
+    "roadId": "BI-636",
+    "travelDirection": "CADAGUA",
+    "cause": "Desconocida",
+    "id": "7694db7a-166f-11e5-bec7-109add700a2c",
+    "initialKilometer": 14.5,
+    "description": "HERRERA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 36.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.59599,-2.68236"
+    },
+    "roadId": "A-2124",
+    "travelDirection": "LAGUARDIA",
+    "cause": "Desconocida",
+    "id": "7694e0ab-166f-11e5-b80e-109add700a2c",
+    "initialKilometer": 21.6,
+    "description": "HERRERAKO MENDATEA/PUERTO DE HERRERA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 33.3,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.29998,-3.17067"
+    },
+    "roadId": "BI-3601",
+    "travelDirection": "SOPUERTA",
+    "cause": "Desconocida",
+    "id": "7694e5b5-166f-11e5-bb33-109add700a2c",
+    "initialKilometer": 33.3,
+    "description": "ILSOGANA (LAS MU\u00d1ECAS)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.15236,-2.1620299999999997"
+    },
+    "roadId": "BI-633",
+    "travelDirection": "ELGOIBAR",
+    "cause": "Desconocida",
+    "id": "7694eaab-166f-11e5-a10a-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "IRUZUBIETA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.15241,-2.161661"
+    },
+    "roadId": "GI-2634",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7694efe8-166f-11e5-aec7-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ITURBURU"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 6.8,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27872,-2.32911"
+    },
+    "roadId": "N-634",
+    "travelDirection": "SANTANDER",
+    "cause": "Desconocida",
+    "id": "7694f4dc-166f-11e5-934e-109add700a2c",
+    "initialKilometer": 5.0,
+    "description": "ITZIAR"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.13872873,-2.06387623"
+    },
+    "roadId": "GI-3421",
+    "travelDirection": "ERMITA IZASKUN",
+    "cause": "Desconocida",
+    "id": "7694f9fd-166f-11e5-b0da-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "IZASKUN"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.35037,-1.85191"
+    },
+    "roadId": "GI-3440",
+    "travelDirection": "HONDARRIBIA",
+    "cause": "Desconocida",
+    "id": "7694ff42-166f-11e5-b178-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "JAIZKIBEL"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.09673,-2.50561"
+    },
+    "roadId": "N-636",
+    "travelDirection": "DURANGO",
+    "cause": "Desconocida",
+    "id": "7695044a-166f-11e5-82db-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "KANPANZAR"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.14825,-2.48012"
+    },
+    "roadId": "GI-2639",
+    "travelDirection": "EIBAR",
+    "cause": "Desconocida",
+    "id": "76950987-166f-11e5-af1b-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "KARABIETA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.26224,-2.970536"
+    },
+    "roadId": "BI-636",
+    "travelDirection": "CORREDOR DEL CADAGUA",
+    "cause": "Desconocida",
+    "id": "76950e87-166f-11e5-bf27-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "KASTREXANA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 27.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.027339999999995,-2.58044"
+    },
+    "roadId": "A-2620",
+    "travelDirection": "ARRASATE-MONDRAG\u00d3N",
+    "cause": "Desconocida",
+    "id": "769513c2-166f-11e5-9aad-109add700a2c",
+    "initialKilometer": 27.0,
+    "description": "KURTZETA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.2905,-3.04923"
+    },
+    "roadId": "BI-3755",
+    "travelDirection": "LA ARBOLEDA",
+    "cause": "Desconocida",
+    "id": "769518c5-166f-11e5-b56f-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "LARREINETA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27733,-2.542262"
+    },
+    "roadId": "BI-3448",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76951dba-166f-11e5-8503-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "LEKOIZGANA (SANTA EUFEMIA)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 47.7,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.96017,-2.0988599999999997"
+    },
+    "roadId": "GI-120",
+    "travelDirection": "BEASAIN",
+    "cause": "Desconocida",
+    "id": "76952333-166f-11e5-baa8-109add700a2c",
+    "initialKilometer": 47.7,
+    "description": "LIZARRUSTI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.086929999999995,-2.24505"
+    },
+    "roadId": "GI-2635",
+    "travelDirection": "BEASAIN",
+    "cause": "Desconocida",
+    "id": "76952833-166f-11e5-870c-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "MANDUBIA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.28109,-2.20987"
+    },
+    "roadId": "GI-2633",
+    "travelDirection": "IRAETA",
+    "cause": "Desconocida",
+    "id": "76952d6e-166f-11e5-b6ab-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "MEAGA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.324842,-2.493521"
+    },
+    "roadId": "BI-2405",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695326e-166f-11e5-a341-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "MERELLUDI (MILLOI)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.145579,-2.555029"
+    },
+    "roadId": "BI-3321",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "769537ab-166f-11e5-bcff-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "MIOTA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.28338,-2.75744"
+    },
+    "roadId": "BI-3148",
+    "travelDirection": "MORGA",
+    "cause": "Desconocida",
+    "id": "76953cab-166f-11e5-87f7-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "MORGA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.222699999999996,-2.6719999999999997"
+    },
+    "roadId": "BI-3332",
+    "travelDirection": "MUXIKA",
+    "cause": "Desconocida",
+    "id": "769541a8-166f-11e5-9c28-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "MUNIKETA (MONTECALVO)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.12249,-2.18343"
+    },
+    "roadId": "GI-3720",
+    "travelDirection": "ALBIZTUR",
+    "cause": "Desconocida",
+    "id": "76954702-166f-11e5-a122-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "OLLOKI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 33.4,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.814789999999995,-2.3318"
+    },
+    "roadId": "A-2128",
+    "travelDirection": "CAMPEZO/KANPEZU",
+    "cause": "Desconocida",
+    "id": "76954c0c-166f-11e5-be59-109add700a2c",
+    "initialKilometer": 28.0,
+    "description": "OPAKUA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 15.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.93844,-2.25927"
+    },
+    "roadId": "GI-2637",
+    "travelDirection": "ALTSASU/ALSASUA",
+    "cause": "Desconocida",
+    "id": "76955151-166f-11e5-8efa-109add700a2c",
+    "initialKilometer": 15.0,
+    "description": "OTSAURTE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 32.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.13654,-2.4875"
+    },
+    "roadId": "GI-2632",
+    "travelDirection": "ELORRIO",
+    "cause": "Desconocida",
+    "id": "76955654-166f-11e5-afe1-109add700a2c",
+    "initialKilometer": 27.0,
+    "description": "PAGATZA (ELGETA)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.445562,-2.755186"
+    },
+    "roadId": "BI-3101",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76955b8f-166f-11e5-8357-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "SAN PELAIO"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.136945,-2.798746"
+    },
+    "roadId": "BI-3524",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "769560ca-166f-11e5-b59b-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "SARASOLA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 28.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.4045,-2.76024"
+    },
+    "roadId": "BI-631",
+    "travelDirection": "BERMEO",
+    "cause": "Desconocida",
+    "id": "769565cc-166f-11e5-8233-109add700a2c",
+    "initialKilometer": 28.0,
+    "description": "SOLLUBE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.21646,-3.41185"
+    },
+    "roadId": "BI-3622",
+    "travelDirection": "LANESTOSA",
+    "cause": "Desconocida",
+    "id": "76956b07-166f-11e5-8868-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "UBAL"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 9.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.01489,-2.35887"
+    },
+    "roadId": "GI-2630",
+    "travelDirection": "BERGARA",
+    "cause": "Desconocida",
+    "id": "76957007-166f-11e5-acac-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "UDANA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.234386,-3.09558"
+    },
+    "roadId": "BI-3631",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "769574fd-166f-11e5-88c3-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "UMARAN"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 9.5,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.33895,-2.92713"
+    },
+    "roadId": "BI-2704",
+    "travelDirection": "PLENTZIA",
+    "cause": "Desconocida",
+    "id": "76957a30-166f-11e5-bec6-109add700a2c",
+    "initialKilometer": 9.5,
+    "description": "UNBE"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 350.4,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.956109999999995,-3.02093"
+    },
+    "roadId": "A-2625",
+    "travelDirection": "URDU\u00d1A-ORDU\u00d1A",
+    "cause": "Desconocida",
+    "id": "76957f26-166f-11e5-9657-109add700a2c",
+    "initialKilometer": 346.7,
+    "description": "URDU\u00d1AKO MENDATEA/PUERTO DE ORDU\u00d1A"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 56.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.24138,-2.443974"
+    },
+    "roadId": "BI-2636",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695846e-166f-11e5-8782-109add700a2c",
+    "initialKilometer": 50.0,
+    "description": "URKAREGI (SAN MIGEL)"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 46.3,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.10103,-2.6461099999999997"
+    },
+    "roadId": "BI-623",
+    "travelDirection": "VITORIA-GASTEIZ",
+    "cause": "Desconocida",
+    "id": "7695896b-166f-11e5-a24e-109add700a2c",
+    "initialKilometer": 39.6,
+    "description": "URKIOLA"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.15072,-2.18842"
+    },
+    "roadId": "GI-3740",
+    "travelDirection": "BIDANIA",
+    "cause": "Desconocida",
+    "id": "76958e9e-166f-11e5-9ea9-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "URRAKI"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.102599999999995,-1.95572"
+    },
+    "roadId": "GI-2130",
+    "travelDirection": "LEITZA",
+    "cause": "Desconocida",
+    "id": "7695939e-166f-11e5-9895-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "URTO"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 9.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.79067,-2.72843"
+    },
+    "roadId": "A-3102",
+    "travelDirection": "TREVI\u00d1O",
+    "cause": "Desconocida",
+    "id": "7695989e-166f-11e5-bc37-109add700a2c",
+    "initialKilometer": 5.5,
+    "description": "ZALDIARAN"
+  },
+  {
+    "category": "Puertos de monta\u00f1a",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "severity": "T: Abierto C: Abierto A: Abierto",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.27259,-2.137398"
+    },
+    "roadId": "N-634",
+    "travelDirection": "SANTANDER",
+    "cause": "Desconocida",
+    "id": "76959dcf-166f-11e5-86a0-109add700a2c",
+    "initialKilometer": 0.0,
+    "description": "ZUDUGARAIGAIN (ALTO DE ORIO)"
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-124 BRI\u00d1AS - LOGRO\u00d1O",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-124",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695a2c5-166f-11e5-81d7-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-15 ANDOAIN-NAFARROA/NAVARRA",
+    "type": "TrafficIncidence",
+    "endKilometer": 153.0,
+    "roadId": "A-15",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695a7d9-166f-11e5-bc5d-109add700a2c",
+    "initialKilometer": 152.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-15 NAFARROA/NAVARRA-ANDOAIN",
+    "type": "TrafficIncidence",
+    "endKilometer": 152.0,
+    "roadId": "A-15",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695acdc-166f-11e5-a7f0-109add700a2c",
+    "initialKilometer": 139.8
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-2622 LANGRAIZ/NANCLARES",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-2622",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695b1c5-166f-11e5-b50e-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-3126 BERGANZO-URIZAHARRA/PE\u00d1ACERRADA",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-3126",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695b6d9-166f-11e5-9cdd-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-3130 BERNEDO-URIZAHARRA/PE\u00d1ACERRADA",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-3130",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695bbc5-166f-11e5-9bdd-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-623 LEGUTIO-DURANGO",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-623",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695c0a6-166f-11e5-9fef-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-625 URDU\u00d1A/ORDU\u00d1A-BILBAO",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-625",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695c602-166f-11e5-97e3-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-8 BILBAO - EL HAYA",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-8",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695cb7a-166f-11e5-a6af-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-8 BILBAO - ERMUA",
+    "type": "TrafficIncidence",
+    "endKilometer": 93.0,
+    "roadId": "A-8",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695d070-166f-11e5-8ed7-109add700a2c",
+    "initialKilometer": 75.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-8 EL HAYA - BILBAO",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "A-8",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695d597-166f-11e5-b3d1-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-8 ERMUA - BILBAO",
+    "type": "TrafficIncidence",
+    "endKilometer": 93.0,
+    "roadId": "A-8",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695da7a-166f-11e5-9228-109add700a2c",
+    "initialKilometer": 75.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-8 ERMUA - IRUN",
+    "type": "TrafficIncidence",
+    "endKilometer": 1.0,
+    "roadId": "A-8",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695df66-166f-11e5-bcd0-109add700a2c",
+    "initialKilometer": 2.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "A-8 IRUN - ERMUA",
+    "type": "TrafficIncidence",
+    "endKilometer": 2.0,
+    "roadId": "A-8",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695e485-166f-11e5-99b7-109add700a2c",
+    "initialKilometer": 1.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "ALTUBE-VITORIA/GASTEIZ AUTOBIA",
+    "type": "TrafficIncidence",
+    "endKilometer": 23.0,
+    "roadId": "N-622",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "7695e970-166f-11e5-9216-109add700a2c",
+    "initialKilometer": 4.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "AP-1 (BURGOS-ARMI\u00d1ON)",
+    "type": "TrafficIncidence",
+    "endKilometer": 83.3,
+    "roadId": "AP-1",
+    "travelDirection": "EIBAR",
+    "cause": "Desconocida",
+    "id": "7695ee59-166f-11e5-89ac-109add700a2c",
+    "initialKilometer": 77.3
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "AP-1 (ESKORIATZA-FORONDA)",
+    "type": "TrafficIncidence",
+    "endKilometer": 123.0,
+    "roadId": "AP-1",
+    "travelDirection": "MADRID",
+    "cause": "Obras",
+    "id": "7695f3ab-166f-11e5-8641-109add700a2c",
+    "initialKilometer": 100.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "AP-1 (FORONDA-ESKORIATZA)",
+    "type": "TrafficIncidence",
+    "endKilometer": 123.0,
+    "roadId": "AP-1",
+    "travelDirection": "EIBAR",
+    "cause": "Obras",
+    "id": "7695fc11-166f-11e5-ba6e-109add700a2c",
+    "initialKilometer": 100.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "AP-1 (N-1CR-BURGOS)",
+    "type": "TrafficIncidence",
+    "endKilometer": 83.1,
+    "roadId": "AP-1",
+    "travelDirection": "BURGOS",
+    "cause": "Desconocida",
+    "id": "769605de-166f-11e5-bb37-109add700a2c",
+    "initialKilometer": 77.3
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "AP-1(ARRASATE-EIBAR)",
+    "type": "TrafficIncidence",
+    "endKilometer": 16.5,
+    "roadId": "AP-1 ",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76960b3a-166f-11e5-9043-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "AP-1(EIBAR-ARRASATE)",
+    "type": "TrafficIncidence",
+    "endKilometer": 12.0,
+    "roadId": "AP-1 ",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76961026-166f-11e5-97b9-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "BI-623 OTXANDIO SAIHESBIDEA/VARIANTE",
+    "type": "TrafficIncidence",
+    "endKilometer": 392.0,
+    "roadId": "BI-623",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76961557-166f-11e5-a741-109add700a2c",
+    "initialKilometer": 350.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-1 MIRANDA-VITORIA/GASTEIZ",
+    "type": "TrafficIncidence",
+    "endKilometer": 350.0,
+    "roadId": "N-1",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76961a61-166f-11e5-b79d-109add700a2c",
+    "initialKilometer": 322.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-1 NAFARROA/NAVARRA-VITORIA/GASTEIZ",
+    "type": "TrafficIncidence",
+    "endKilometer": 350.0,
+    "roadId": "N-1",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76961f57-166f-11e5-aca6-109add700a2c",
+    "initialKilometer": 392.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-1 VITORIA/GASTEIZ-MIRANDA",
+    "type": "TrafficIncidence",
+    "endKilometer": 322.0,
+    "roadId": "N-1",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76962438-166f-11e5-8141-109add700a2c",
+    "initialKilometer": 350.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-1 VITORIA/GASTEIZ-NAFARROA/NAVARRA",
+    "type": "TrafficIncidence",
+    "endKilometer": 392.0,
+    "roadId": "N-1",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76962961-166f-11e5-9749-109add700a2c",
+    "initialKilometer": 350.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-124 LAS CONCHAS",
+    "type": "TrafficIncidence",
+    "endKilometer": 14.0,
+    "roadId": "N-124",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76962e4f-166f-11e5-ad0f-109add700a2c",
+    "initialKilometer": 7.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-240 LEGUTIO-VITORIA/GASTEIZ",
+    "type": "TrafficIncidence",
+    "endKilometer": 0.0,
+    "roadId": "N-240",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76963326-166f-11e5-9eac-109add700a2c",
+    "initialKilometer": 0.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "N-240 VITORIA/GASTEIZ-LEGUTIO",
+    "type": "TrafficIncidence",
+    "endKilometer": 14.0,
+    "roadId": "N-240",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76963857-166f-11e5-814c-109add700a2c",
+    "initialKilometer": 7.0
+  },
+  {
+    "category": "Vialidad invernal tramos",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-17T07:48:05.175+02:00"
+    },
+    "description": "VITORIA/GASTEIZ-ALTUBE AUTOBIA",
+    "type": "TrafficIncidence",
+    "endKilometer": 23.0,
+    "roadId": "N-622",
+    "travelDirection": "NO DISPONIBLE",
+    "cause": "Desconocida",
+    "id": "76963d4c-166f-11e5-a2fe-109add700a2c",
+    "initialKilometer": 4.0
+  },
+  {
+    "category": "Obras",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-19"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-19"
+    },
+    "type": "TrafficIncidence",
+    "endKilometer": 143.0,
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.11082,-1.95591"
+    },
+    "roadId": "A-15",
+    "travelDirection": "ANDOAIN",
+    "cause": "Obra",
+    "id": "7696423a-166f-11e5-a145-109add700a2c",
+    "initialKilometer": 141.0
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-20"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-20"
+    },
+    "description": "ELORRIOKO UDALA SARIA",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.12778,-2.55624"
+    },
+    "cause": "Ciclismo",
+    "id": "769647c5-166f-11e5-a1d4-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-20"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-20"
+    },
+    "description": "LEKEITIOKO 23 TRIATLOIA",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.36406,-2.505065"
+    },
+    "cause": "Triatl\u00f3n",
+    "id": "76964cb3-166f-11e5-a5b8-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-20"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-20"
+    },
+    "description": "LI PREMIO SAN PEDRO",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.87977,-2.330808"
+    },
+    "cause": "Ciclismo",
+    "id": "769651bd-166f-11e5-87aa-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-21"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-21"
+    },
+    "description": "V MUNGIKO SARI NAGUSIA-AGUSTIN SAGASTI GOGOAN",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.35122,-2.84444"
+    },
+    "cause": "Ciclismo",
+    "id": "7696569e-166f-11e5-b2d6-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-21"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-21"
+    },
+    "description": "XV. SAN JUAN SARIA-XV PREMIO SAN JUAN",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.84995,-2.389838"
+    },
+    "cause": "Ciclismo",
+    "id": "76965bcf-166f-11e5-8b16-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "description": "CAMPEONATO EUSKADI CADETES",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.21422,-3.13361"
+    },
+    "cause": "Ciclismo",
+    "id": "769660d9-166f-11e5-b809-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "description": "IX CL\u00c1SICA VILLA DE COLINDRES",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.21628,-3.437618"
+    },
+    "cause": "Automovilismo",
+    "id": "769665e3-166f-11e5-96e4-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "description": "SAN PEDRO SARIA JUNIOR / MEMORIAL MANDALUNIZ",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.35704,-2.837434"
+    },
+    "cause": "Ciclismo",
+    "id": "76966aba-166f-11e5-8d9c-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-27"
+    },
+    "description": "VII RALLYE BALCON DE BIZKAIA",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.18849,-2.64113"
+    },
+    "cause": "Automovilismo",
+    "id": "76966f94-166f-11e5-b12d-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-06-28"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-06-28"
+    },
+    "description": "DUATLON SOLIDARIO GORDEXOLA",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.16338,-3.10241"
+    },
+    "cause": "Biathl\u00f3n",
+    "id": "7696749c-166f-11e5-b6fc-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-04"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-07"
+    },
+    "description": "MARTXA BBT TXIPIROI EXTREME",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.38036,-2.58613"
+    },
+    "cause": "Ciclismo",
+    "id": "76967975-166f-11e5-becf-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-04"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-04"
+    },
+    "description": "XIII RALLYSPRINT DE SAN MIGUEL",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.25268,-2.47932"
+    },
+    "cause": "Automovilismo",
+    "id": "76967e75-166f-11e5-ae71-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-05"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-05"
+    },
+    "description": "BIZKAIKO XXI ITZULIA",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.19051,-3.19217"
+    },
+    "cause": "Ciclismo",
+    "id": "76968342-166f-11e5-96ae-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-11"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-11"
+    },
+    "description": "XIV. PREMIO AYTO. DE ZIGOITIA-CAMPEONATO DE ALAVA",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "42.91874,-2.709927"
+    },
+    "cause": "Ciclismo",
+    "id": "7696884c-166f-11e5-afb4-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-18"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-18"
+    },
+    "description": "PARACYCLING BIZKAIKO BIRA XIX",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.35935,-2.99781"
+    },
+    "cause": "Ciclismo",
+    "id": "76968d26-166f-11e5-bb09-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-18"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-18"
+    },
+    "description": "PARACYCLING BIZKAIKO BIRA XIX",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.12826,-2.54024"
+    },
+    "cause": "Ciclismo",
+    "id": "76969226-166f-11e5-b212-109add700a2c"
+  },
+  {
+    "category": "Pruebas deportivas",
+    "startDate": {
+      "type": "date",
+      "value": "2015-07-19"
+    },
+    "endDate": {
+      "type": "date",
+      "value": "2015-07-19"
+    },
+    "description": "PARACYCLING BIZKAIKO BIRA XIX",
+    "type": "TrafficIncidence",
+    "location": {
+      "crs": "WGS84",
+      "type": "geo:point",
+      "value": "43.34691,-2.82031"
+    },
+    "cause": "Ciclismo",
+    "id": "769696fd-166f-11e5-bab7-109add700a2c"
+  }
+]
