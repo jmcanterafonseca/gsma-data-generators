@@ -8,6 +8,8 @@ import datetime
 import json
 import copy
 from dateutil import parser
+import csv
+import StringIO
 
 postal_codes = {
   '47001': '47186',
@@ -20,6 +22,7 @@ postal_codes = {
 app = Flask(__name__)
 
 aemet_service = "http://www.aemet.es/xml/municipios/localidad_{}.xml"
+weather_observed = "http://www.aemet.es/es/eltiempo/observacion/ultimosdatos_{}_datos-horarios.csv?k=cle&l={}&datos=det&w=0&f=temperatura&x=h6"
 
 @app.route('/')
 def index():
@@ -29,13 +32,100 @@ def index():
 @app.route('/v2/entities',  methods=['GET'])
 def get_weather():
     entity_type = request.args.get('type')
-    if entity_type <> 'WeatherForecast':
+      
+    if entity_type == 'WeatherForecast':
+      return get_weather_forecasted(request)
+    elif entity_type == 'WeatherObserved':
+      return get_weather_observed(request)
+    else:
+      return Response(json.dumps([]), mimetype='application/json')
+
+def get_weather_observed(request):    
+    query = request.args.get('q')
+    
+    if not query:
       return Response(json.dumps([]), mimetype='application/json')
     
+    tokens  = query.split(';')
+    
+    station_code = ''
+    country = ''
+    
+    for token in tokens:
+      items = token.split(':')
+      if items[0] == 'stationCode':
+        station_code = items[1]
+      elif items[0] == 'country':
+        country = items[1]
+    
+    if not station_code or not country or country <> 'ES':
+      return Response(json.dumps([]), mimetype='application/json')
+    
+    source = weather_observed.format(station_code, station_code)
+    
+    req = urllib2.Request(url=source)
+    f = urllib2.urlopen(req)
+    csv_data = f.read()
+    
+    csv_file = StringIO.StringIO(csv_data)
+    reader = csv.reader(csv_file, delimiter=',')
+    
+    out = []
+    index = 0
+    for row in reader:
+      if index == 0:
+        address = row[0]
+        
+      if index < 4:
+        index += 1
+        continue
+      
+      print row
+      
+      observation = {
+        'type': 'WeatherObserved'
+      }
+      if len(row) < 2:
+        continue
+      
+      observation['temperature'] = get_data(row, 1)
+      observation['windSpeed'] = get_data(row, 2, int)
+      observation['windDirection'] = row[3] or None
+      observation['precipitation'] = get_data(row, 6)
+      observation['pressure'] = get_data(row, 7)
+      observation['pressureTendency'] =  get_data(row, 8)
+      observation['relativeHumidity'] = get_data(row, 9, factor=100.0)
+      
+      observation['observed'] = datetime.datetime.strptime(row[0], '%d/%m/%Y %H:%M').isoformat()
+      observation['source'] = 'http://www.aemet.es'
+      observation['address'] = {
+        'addressLocality': address.decode('latin-1'),
+        'addressCountry': country
+      }
+      
+      out.append(observation)
+    
+    print out
+    return Response(json.dumps(out), mimetype='application/json')
+  
+def get_data(row, index, conversion=float, factor=1.0):
+  out = None
+  
+  value = row[index]
+  if(value <> ''):
+    out = conversion(value) / factor
+    
+  return out
+    
+def get_weather_forecasted(request):    
     country = ''
     postal_code = ''
     
     query = request.args.get('q')
+    
+    if not query:
+      return Response(json.dumps([]), mimetype='application/json')
+    
     tokens  = query.split(';')
     for token in tokens:
       items = token.split(':')
@@ -97,18 +187,20 @@ def parse_aemet_forecast(forecast, date):
       insert_into_period(periods, period,
                   'precipitationProbability', float(pop.firstChild.nodeValue) / 100.0)
   
+  period = None
   weather_types = forecast.getElementsByTagName('estado_cielo')
   for weather_type in weather_types:
-    period = pop.getAttribute('periodo')
+    period = weather_type.getAttribute('periodo')
     if not period:
       period = '00-24'
     if weather_type.firstChild and weather_type.firstChild.nodeValue:
       insert_into_period(periods, period, 'weatherType',
                          weather_type.getAttribute('descripcion'))
   
+  period = None
   wind_data = forecast.getElementsByTagName('viento')
   for wind in wind_data:
-    period = pop.getAttribute('periodo')
+    period = wind.getAttribute('periodo')
     if not period:
       period = '00-24'
     wind_direction = wind.getElementsByTagName('direccion')[0]
@@ -178,13 +270,14 @@ def parse_aemet_forecast(forecast, date):
 def get_parameter_data(node, periods, parameter, factor=1.0):
   param_periods = node.getElementsByTagName('dato')
   for param in param_periods:
-    hour = int(param.getAttribute('hora'))
+    hour_str = param.getAttribute('hora')
+    hour = int(hour_str)
     interval_start = hour - 6
     interval_start_str = str(interval_start)
     if interval_start < 10:
       interval_start_str = '0' + str(interval_start)
       
-    period = interval_start_str + '-' + str(hour)
+    period = interval_start_str + '-' + hour_str
     if param.firstChild and param.firstChild.nodeValue:
       param_val = float(param.firstChild.nodeValue)
       insert_into_period(periods, period, parameter, param_val / factor)
@@ -200,4 +293,4 @@ def generate_id(postal_code, country, date):
   return postal_code + '_' + country + '_' + date
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=1028,debug=True)
