@@ -10,19 +10,47 @@ import copy
 from dateutil import parser
 import csv
 import StringIO
+import re
 
 postal_codes = {
   '47001': '47186',
   '28001': '28079',
   '39001': '39075',
   '34001': '34120',
-  '34200': '34023'
+  '34200': '34023',
+  '05194': '05123'
+}
+
+awareness_type_dict = {
+  '1':  'Wind',
+  '2':  'Snow/Ice',
+  '3':  'Thunderstorms',
+  '4':  'Fog',
+  '5':  'Extreme High Temperature',
+  '6':  'Extreme Low Temperature',
+  '7':  'Coastal Event',
+  '8':  'Forest Fire',
+  '9':  'Avalanches',
+  '10': 'Rain',
+  '11': 'Flood',
+  '12': 'Rain-Flood'
+}
+
+awareness_level_dict = {
+  '':  'White',
+  '1': 'Green',
+  '2': 'Yellow',
+  '3': 'Orange',
+  '4': 'Red'
 }
 
 app = Flask(__name__)
 
-aemet_service = "http://www.aemet.es/xml/municipios/localidad_{}.xml"
+aemet_service    = "http://www.aemet.es/xml/municipios/localidad_{}.xml"
 weather_observed = "http://www.aemet.es/es/eltiempo/observacion/ultimosdatos_{}_datos-horarios.csv?k=cle&l={}&datos=det&w=0&f=temperatura&x=h6"
+weather_alarms   = "http://www.meteoalarm.eu/documents/rss/{}.rss"
+
+reg_exp = re.compile('<img(?P<group>.*?)>')
 
 @app.route('/')
 def index():
@@ -37,8 +65,97 @@ def get_weather():
       return get_weather_forecasted(request)
     elif entity_type == 'WeatherObserved':
       return get_weather_observed(request)
+    elif entity_type == 'WeatherAlarm':
+      return get_weather_alarms(request)
     else:
       return Response(json.dumps([]), mimetype='application/json')
+    
+def get_weather_alarms(request):
+  query = request.args.get('q')
+
+  if not query:
+      return Response(json.dumps([]), mimetype='application/json')
+  
+  tokens  = query.split(';')
+  
+  country = ''
+  
+  for token in tokens:
+    items = token.split(':')
+    if items[0] == 'country':
+      country = items[1].lower()
+  
+  source = weather_alarms.format(country)
+  req = urllib2.Request(url=source)
+  f = urllib2.urlopen(req)
+  
+  xml_data = f.read()
+  DOMTree = xml.dom.minidom.parseString(xml_data).documentElement
+  
+  out = []
+  
+  items = DOMTree.getElementsByTagName('item')[1:]
+  
+  for item in items:
+    description = item.getElementsByTagName('description')[0].firstChild.nodeValue
+    # Enable description parsing
+    description = description.replace('&nbsp;', '')
+    description = re.sub(reg_exp,'<img\g<group>></img>',description)
+    
+    zone = item.getElementsByTagName('title')[0].firstChild.nodeValue.strip()
+    uid = item.getElementsByTagName('guid')[0].firstChild.nodeValue
+    pub_date_str = item.getElementsByTagName('pubDate')[0].firstChild.nodeValue
+    pub_date = datetime.datetime.strptime(pub_date_str[:-6], '%a, %d %b %Y %H:%M:%S').isoformat()
+    
+    parsed_content = xml.dom.minidom.parseString(description).documentElement
+    rows = parsed_content.getElementsByTagName('tr')[1:2]
+    
+    row_number = 0
+    for row in rows:
+      columns = row.getElementsByTagName('td')
+      for column in columns:
+        # img column contains the awareness level and type
+        img_aux = column.getElementsByTagName('img')
+        if img_aux.length > 0:
+          awareness_str = img_aux[0].getAttribute('alt')
+          
+          alarm_data = parse_alarm(awareness_str)
+          if alarm_data['level'] > 1:
+            if row_number == 0:
+              v_from = datetime.datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
+            else:
+              v_from =  datetime.datetime.today().replace(hour=0, minute=0, second=0,microsecond=0) + datetime.timedelta(days=1)
+            obj = {
+              'type': 'WeatherAlarm',
+              'id':   'WeatherAlarm' + '-' + uid + '-' + str(row_number),
+              'validity': {
+                'from': v_from.isoformat(),
+                'to':   (v_from + datetime.timedelta(days=1)).isoformat()
+              },
+              'awarenessType':  alarm_data['awt'],
+              'awarenessLevel': alarm_data['levelColor'],
+              'address': {
+                'addressCountry': country.upper(),
+                'addressLocality': zone
+              },
+              'source': 'http://www.meteoalarm.eu',
+              'created': pub_date
+            }
+            out.append(obj)
+      row_number += 1
+  
+  return Response(json.dumps(out), mimetype='application/json')
+
+def parse_alarm(alarm_string):
+  elements = alarm_string.split(' ')
+  awt = elements[0].split(':')[1]
+  level = elements[1].split(':')[1]
+  
+  return {
+    'level':      int(level),
+    'levelColor': awareness_level_dict[level],
+    'awt':        awareness_type_dict[awt]
+  }
 
 def get_weather_observed(request):    
     query = request.args.get('q')
@@ -244,9 +361,9 @@ def parse_aemet_forecast(forecast, date):
     end_date = end_date.replace(hour=end_hour,minute=0,second=0)   
     
     objPeriod = periods[period]
-    objPeriod['period'] = { }
-    objPeriod['period']['from'] = start_date.isoformat()
-    objPeriod['period']['to'] = end_date.isoformat()
+    objPeriod['validity'] = { }
+    objPeriod['validity']['from'] = start_date.isoformat()
+    objPeriod['validity']['to'] = end_date.isoformat()
     
     maximum = { }
     objPeriod['dayMaximum'] = maximum
