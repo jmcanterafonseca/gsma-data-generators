@@ -32,9 +32,7 @@ function setupConfig() {
         if (!polygon2Sensor[polygonId]) {
           polygon2Sensor[polygonId] = [];
         }
-        else {
-           polygon2Sensor[polygonId].push(sensorId);
-        }
+        polygon2Sensor[polygonId].push(sensorId);
       });
       
       obj = {
@@ -128,7 +126,6 @@ setupConfig().then(function(config) {
         id: aSensor
       })
     });
-    console.log(queryData);
     
     // Enquee a promise to get status
     querySensorStatus.push(SantanderClient.queryContext(queryData,{
@@ -136,15 +133,16 @@ setupConfig().then(function(config) {
     }));
   });
   
-  console.log(querySensorStatus.length);
-  
   Promise.all(querySensorStatus).then(function(results) {
-    console.log(results);
-    
+    console.log('Promise.all finished: ', results.length, entitiesToCreate.length);
     entitiesToCreate.forEach(function(aEntity, index) {
+      console.log(index);
+      if (index == 27) {
+        console.log(aEntity);
+      }
       var freeSpots = aEntity.totalSpotNumber;
       var sensorData = results[index];
-      sensorData.forEach(function(aSensor) {
+      sensorData && sensorData.forEach(function(aSensor) {
         if (aSensor['presenceStatus:parking'] === 'true') {
           freeSpots--;
         }
@@ -153,15 +151,15 @@ setupConfig().then(function(config) {
       aEntity.updated = new Date();
     });
     
-    OrionClient.updateContext(entitiesToCreate).then(function() {
+    console.log('Going to create entities');
+    
+    return OrionClient.updateContext(entitiesToCreate);
+  
+  }).then(function() {
       console.log('Santander street parking created OK');
     }).catch(function(err) {
         console.error('Error while setting up Santander data', err);
     });
-  }).catch(function(err) {
-      console.error('Error while creating entities: ', err);
-  });
-  
 }).catch(function(err) {
     console.error('Error while setting up configuration: ', err);
 });
